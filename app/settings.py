@@ -65,7 +65,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'app.urls'
 
-ALLOWED_HOSTS = ['10.0.0.227', 'localhost', '10.0.0.196']
+ALLOWED_HOSTS = ['3.88.177.73', 'localhost', '3.88.177.73']
 
 TEMPLATES = [
     {
