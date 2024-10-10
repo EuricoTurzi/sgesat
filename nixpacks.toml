@@ -1,0 +1,9 @@
+[build]
+builder = "nixpacks"
+buildCommand = "python manage.py migrate"
+
+[deploy]
+startCommand = "python manage.py runserver 0.0.0.0:8000"
+healthcheckPath = "/"
+healthcheckTimeout = 100
+restartPolicyType = "always"
